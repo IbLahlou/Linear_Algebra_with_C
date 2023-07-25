@@ -23,13 +23,15 @@ cd matrix-multiplication-c
 3. Compile the C program using GCC.
 
 ```bash
-gcc -o program main.c
+gcc -o main main.c
+gcc -o regression regression.c
 ```
 
 4. Run the compiled program.
 
 ```bash
-./program
+./main
+./regression
 ```
 
 The program will multiply two predefined matrices and print the resulting matrix in the terminal.
