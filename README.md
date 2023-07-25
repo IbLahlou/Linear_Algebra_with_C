@@ -1,4 +1,4 @@
-# Matrix Multiplication C Program
+# Linear Algebra C Program
 
 This repository contains a simple C program to perform matrix multiplication. The program multiplies two rectangular matrices and prints the resulting matrix.
 
@@ -36,10 +36,6 @@ gcc -o regression regression.c
 
 The program will multiply two predefined matrices and print the resulting matrix in the terminal.
 
-## Customization
-
-You can modify the `main.c` file to perform matrix multiplication with your custom input matrices. Just update the `mat1` and `mat2` arrays with your desired matrices and adjust the dimensions `m1`, `m2`, `n1`, and `n2` accordingly.
-
 ## Using Docker
 
 Alternatively, you can use Docker to run the C program without installing GCC locally.
@@ -49,13 +45,13 @@ Alternatively, you can use Docker to run the C program without installing GCC lo
 2. Build the Docker image.
 
 ```bash
-docker build -t matrix-multiplication-c .
+docker build -t linear_algebra-c .
 ```
 
 3. Run the Docker container.
 
 ```bash
-docker run matrix-multiplication-c
+docker run linear_algebra-c
 ```
 
 The program will run inside the Docker container, and the resulting matrix will be printed in the terminal.
