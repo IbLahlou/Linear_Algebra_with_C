@@ -69,5 +69,3 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 ## Acknowledgments
 
 The code in this repository is a simple implementation of matrix multiplication in C for educational purposes.
-
-```
