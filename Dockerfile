@@ -8,7 +8,9 @@ WORKDIR /app
 COPY . /app
 
 # Compile the C program using gcc
-RUN gcc -o program main.c
+RUN gcc -o main main.c
+RUN gcc -o regression regression.c
 
 # Set the default command to run the compiled program
-CMD ["./program"]
+CMD ["./main"]
+CMD ["./regression"]
