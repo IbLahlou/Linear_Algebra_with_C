@@ -1,46 +1,52 @@
-# Linear Algebra C Program
+# Linear Algebra C Programs
 
-This repository contains a simple C program to perform matrix multiplication. The program multiplies two rectangular matrices and prints the resulting matrix.
+This repository contains three simple C programs for linear algebra operations. The programs included are:
+
+1. **Matrix Multiplication**: This program performs matrix multiplication of two rectangular matrices and prints the resulting matrix.
+
+2. **Determinant**: This program calculates the determinant of a square matrix.
+
+3. **Regression**: This program demonstrates linear regression using C, performing a simple linear regression on a given dataset.
 
 ## Prerequisites
 
-To compile and run this C program locally, you need to have GCC (GNU Compiler Collection) installed on your system.
+To compile and run these C programs locally, you need to have GCC (GNU Compiler Collection) installed on your system.
 
 ## Local Usage
 
 1. Clone this repository to your local machine using `git clone`.
 
 ```bash
-git clone https://github.com/IbLahlou/matrix-multiplication-c.git
+git clone https://github.com/IbLahlou/linear-algebra-c.git
 ```
 
 2. Change into the project directory.
 
 ```bash
-cd linear_algebra_with_c-c
+cd linear-algebra-c
 ```
 
-3. Compile the C program using GCC.
+3. Compile the C programs using GCC.
 
 ```bash
-gcc -o main main.c
+gcc -o matrix_multiplication matrix_multiplication.c
 gcc -o determinant determinant.c
 gcc -o regression regression.c
 ```
 
-4. Run the compiled program.
+4. Run the compiled programs.
 
 ```bash
-./main
+./matrix_multiplication
 ./determinant
 ./regression
 ```
 
-The program will multiply two predefined matrices and print the resulting matrix in the terminal.
+The respective programs will be executed, and the results will be printed in the terminal.
 
 ## Using Docker
 
-Alternatively, you can use Docker to run the C program without installing GCC locally.
+Alternatively, you can use Docker to run the C programs without installing GCC locally.
 
 1. Make sure you have Docker installed on your system.
 
@@ -56,7 +62,7 @@ docker build -t linear_algebra-c .
 docker run linear_algebra-c
 ```
 
-The program will run inside the Docker container, and the resulting matrix will be printed in the terminal.
+The programs will run inside the Docker container, and the results will be printed in the terminal.
 
 ## License
 
@@ -68,4 +74,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## Acknowledgments
 
-The code in this repository is a simple implementation of matrix multiplication in C for educational purposes.
+The code in this repository provides simple implementations of linear algebra operations in C for educational purposes.
