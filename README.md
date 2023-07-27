@@ -17,13 +17,14 @@ git clone https://github.com/IbLahlou/matrix-multiplication-c.git
 2. Change into the project directory.
 
 ```bash
-cd matrix-multiplication-c
+cd linear_algebra_with_c-c
 ```
 
 3. Compile the C program using GCC.
 
 ```bash
 gcc -o main main.c
+gcc -o determinant determinant.c
 gcc -o regression regression.c
 ```
 
@@ -31,6 +32,7 @@ gcc -o regression regression.c
 
 ```bash
 ./main
+./determinant
 ./regression
 ```
 
