@@ -1,0 +1,8 @@
+# Assuming you are in the project directory
+# Compile the C programs using GCC
+gcc -o main main.c
+gcc -o regression regression.c
+
+# Run the compiled programs
+./matrix_multiplication
+./regression
